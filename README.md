@@ -19,11 +19,18 @@ I've refactored the original RomanNumeralsService into this new service. In this
 to split each digit in the number into each Roman Number, append each Roman numeral to a string and then finally
 display the output.
 
-My consideration was to split each digit into a unit type such as Thousands, Hundreds or Singles. For example,       // BREAK DOWN NUMBER INTO UNITS AND REITERATE EACH UNIT IN NUMBER.
-the number 1995 becomes 1000 (Thousands), 900 (Hundreds), 90 (Tens), 5 (Singles). This service has a filter where it will
-search for the digit and unit type e.g. Hundreds, then retrieve the Roman Numeral.
+My consideration was to split each digit into a unit type such as Thousands, Hundreds or Singles. For example, the number 
+1995 becomes 1000 (Thousands), 900 (Hundreds), 90 (Tens), 5 (Singles). This service has a filter where it will
+search for each digit and its unit type e.g. the digit 1, unit type Hundreds, then retrieve the Roman Numeral.
+
+The reason I took this filter approach was to make it easier to identify the digit and unit type to get the roman numeral. 
+For example, the number 1995. When we parse the second digit 9, the code may identify the roman numeral as IX, 
+but the number was actually 900 where the code should have returned XC as a Roman numeral.
 
 My approach may be over-engineered and may not be the correct way to use. It was a good exercise learning how to use filtering in Scala
+
+## Caveats
+The code will reject any negative numbers and any submitted numbers from 5000 and beyond.
 
 ### The Fellowship Meetup
 
