@@ -1,0 +1,24 @@
+[debug] Running TaskDef(RomanNumeralFilterServiceTest, org.scalatest.tools.Framework$$anon$1@6b441014, false, [SuiteSelector])
+[debug] Running TaskDef(RomanNumeralsServiceTest, org.scalatest.tools.Framework$$anon$1@6b441014, false, [SuiteSelector])
+[info] RomanNumeralFilterServiceTest:
+[info] - Check Singles
+[info] - Check Tens
+[info] - Check Hundreds
+[info] - Check thousand digits
+[info] - Check Random digits
+[info] - Out of range
+[info] RomanNumeralsServiceTest:
+[info] - Check Singles
+[info] - Check Tens
+[info] - Check Hundreds
+[info] - Check thousand digits
+[info] - Check Random digits
+[info] - Out of range
+[info] Run completed in 267 milliseconds.
+[info] Total number of tests run: 12
+[info] Suites: completed 2, aborted 0
+[info] Tests: succeeded 12, failed 0, canceled 0, ignored 0, pending 0
+[info] All tests passed.
+[debug] Passed tests:
+[debug] 	RomanNumeralsServiceTest
+[debug] 	RomanNumeralFilterServiceTest

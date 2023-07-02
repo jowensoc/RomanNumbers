@@ -1,0 +1,16 @@
+[debug] Created transactional ClassFileManager with tempDir = D:\Development\RomanNumbers\target\scala-2.13\classes.bak
+[debug] About to delete class files:
+[debug] 	RomanNumeralsService.class
+[debug] 	RomanNumeralsService$.class
+[debug] We backup class files:
+[debug] 	RomanNumeralsService.class
+[debug] 	RomanNumeralsService$.class
+[debug] Registering generated classes:
+[debug] 	RomanNumeralsService.class
+[debug] 	RomanNumeralFilterService.class
+[debug] 	NumericUnitType.class
+[debug] 	NumericUnitType$.class
+[debug] 	RomanNumeralsService$.class
+[debug] 	RomanNumeralFilterService$.class
+[debug] 	RomanNumber.class
+[debug] Removing the temporary directory used for backing up class files: D:\Development\RomanNumbers\target\scala-2.13\classes.bak

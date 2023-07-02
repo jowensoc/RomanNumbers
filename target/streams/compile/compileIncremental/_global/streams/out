@@ -1,0 +1,32 @@
+[debug] [zinc] IncrementalCompile -----------
+[debug] IncrementalCompile.incrementalCompile
+[debug] previous = Stamps for: 2 products, 1 sources, 1 libraries
+[debug] current source = Set(${BASE}/src/main/scala/RomanNumeralFilterService.scala, ${BASE}/src/main/scala/RomanNumeralsService.scala, ${BASE}/src/main/scala/models/NumericUnitType.scala, ${BASE}/src/main/scala/models/RomanNumber.scala)
+[debug] > initialChanges = InitialChanges(Changes(added = Set(${BASE}/src/main/scala/RomanNumeralFilterService.scala, ${BASE}/src/main/scala/models/NumericUnitType.scala, ${BASE}/src/main/scala/models/RomanNumber.scala), removed = Set(), changed = Set(${BASE}/src/main/scala/RomanNumeralsService.scala), unmodified = ...),Set(${BASE}/target/scala-2.13/classes/RomanNumeralsService$.class, ${BASE}/target/scala-2.13/classes/RomanNumeralsService.class),Set(),API Changes: Set())
+[debug] 
+[debug] Initial source changes:
+[debug] 	removed: Set()
+[debug] 	added: Set(${BASE}/src/main/scala/RomanNumeralFilterService.scala, ${BASE}/src/main/scala/models/NumericUnitType.scala, ${BASE}/src/main/scala/models/RomanNumber.scala)
+[debug] 	modified: Set(${BASE}/src/main/scala/RomanNumeralsService.scala)
+[debug] Invalidated products: Set(${BASE}/target/scala-2.13/classes/RomanNumeralsService$.class, ${BASE}/target/scala-2.13/classes/RomanNumeralsService.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(RomanNumeralsService)
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(${BASE}/src/main/scala/RomanNumeralsService.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] all 4 sources are invalidated
+[debug] Initial set of included nodes: RomanNumeralsService
+[debug] Recompiling all sources: number of invalidated sources > 50.0 percent of all sources
+[debug] compilation cycle 1
+[info] compiling 4 Scala sources to D:\Development\RomanNumbers\target\scala-2.13\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.13:1.8.1:compile for Scala 2.13.11
+[debug] [zinc] Running cached compiler 3a2c25b8 for Scala compiler version 2.13.11
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Users\johnj\AppData\Local\Coursier\Cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.13.11\scala-library-2.13.11.jar
+[debug] 	-classpath
+[debug] 	D:\Development\RomanNumbers\target\scala-2.13\classes
+[debug] Scala compilation took 2.7772578 s
+[info] done compiling
