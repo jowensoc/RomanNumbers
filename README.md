@@ -19,7 +19,7 @@ to split each digit in the number into each Roman Numeral, append each Roman num
 display the output.
 
 My consideration was to split each digit into a unit type such as Thousands, Hundreds or Singles. For example, the number 1995 becomes 1000 (Thousands), 900 (Hundreds), 90 (Tens), 5 (Singles). This service has a filter where it will
-search for each digit and its unit type e.g. search for the digit 1 and unit type Hundreds, which should retrieve the Roman Numeral M.
+search for each digit and its unit type e.g. search for the digit 1 and unit type Thousands, which should retrieve the Roman Numeral M.
 
 The reason I took this filter approach was to make it easier to identify the digit and unit type to get the correct Roman Numeral. 
 For example, the number 1995. When we parse the second digit 9, the code may identify 9, as the roman numeral IX, 
