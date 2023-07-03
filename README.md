@@ -34,13 +34,13 @@ The code will reject any negative numbers and any numbers from 5000 and beyond. 
 
 Team members who have worked on this group exercise
 
-- Carl Thompson
 - Hannah Ellis
+- Joseph Scott-Hartley
+- Twinkle Lahariya
 - Ioannis Lazaridis
 - John Owens
-- Joseph Scott-Hartley
 - Marcy Calderon Patino
 - Rabina Rai
-- Twinkle Lahariya
+- Carl Thompson (Team Leader)
 
 
